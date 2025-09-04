@@ -15,7 +15,6 @@ class CategorySeeder extends Seeder
     {
         $categories = [
             "Điện thoại",
-            "Máy tính",
             "Phụ kiện",
             "Thiết bị ngoại vi",
             "Linh kiện điện tử",

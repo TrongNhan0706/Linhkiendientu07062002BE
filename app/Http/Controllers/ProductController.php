@@ -37,7 +37,8 @@ class ProductController extends Controller
      */
     public function show(string $id)
     {
-        //
+        $product = ProductModel::where('id', $id)->firstOrFail();
+        return response()->json($product, 200);
     }
 
     /**
