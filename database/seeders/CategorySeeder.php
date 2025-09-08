@@ -14,11 +14,10 @@ class CategorySeeder extends Seeder
     public function run(): void
     {
         $categories = [
-            "Iphone 16",
-            "Iphone 15",
-            "Iphone 14",
-            "Iphone 13",
-            "Mach dien tu",
+            "Điện thoại",
+            "Phụ kiện",
+            "Thiết bị ngoại vi",
+            "Linh kiện điện tử",
         ];
 
         foreach ($categories as $category) {
